@@ -20,13 +20,14 @@ header {
 		margin: auto;
 		padding: 50px 0px;
 
-
-
 		a{
 			text-decoration: none;
 			text-transform: uppercase;
 			letter-spacing: 3px;
 			font-weight: 300;
+			color: $gold;
+		}
+		a:visited{
 			color: $gold;
 		}
 
@@ -38,7 +39,7 @@ header {
 			flex-wrap: nowrap;
 			justify-content: space-between;
 
-			@media only all and (min-width: 0px) and (max-width: $bp-mobile) {
+			@media only all and (min-width: 0px) and (max-width: $bp-tablet) {
 				display: none;
 			}
 
