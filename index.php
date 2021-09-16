@@ -33,6 +33,9 @@
 			</li>
 		</ul>
 		<div class="mobile-menu-button">
+			<div>
+			menu
+			</div>
 		</div>
 	</nav>
 	</div>
@@ -41,7 +44,7 @@
 
 <section class="main">
 	<div class="container">
-		<h1 class="size-1">WordPress & WooCommerce Contractor</h1>
+		<h1 class="size-1">WordPress & WooCommerce Developer</h1>
 		<p>
 			I’m a UK based Web Developer focused on helping clients maximise value from their digital marketing.
 		</p>
@@ -54,7 +57,7 @@
 
 <section class="about">
 	<div class="container">
-		<h2 class="size-1">WordPress contractor based in the UK</h2>
+		<h2 class="size-1">WordPress developer based in the UK</h2>
 		<div class="content">
 			<div class="about-me">
 				<p>

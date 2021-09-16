@@ -104,6 +104,15 @@ header nav ul li a {
   color: #F0E1C8;
   margin: 0px 25px;
 }
+header nav .mobile-menu-button {
+  display: none;
+  color: white;
+}
+@media only all and (max-width: 700px) {
+  header nav .mobile-menu-button {
+    display: block;
+  }
+}
 
 .button {
   background-color: #f0e1c8;

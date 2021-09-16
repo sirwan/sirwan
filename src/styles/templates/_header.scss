@@ -55,6 +55,14 @@ header {
 				}
 			}
 		}// ul
+
+		.mobile-menu-button{
+			display: none;
+			color: white;
+			@media only all and (max-width: $bp-tablet) {
+				display: block;
+			}
+		}
 	} // nav
 
 }//header
