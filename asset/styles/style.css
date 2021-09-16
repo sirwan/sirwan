@@ -1,0 +1,469 @@
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Light.ttf?f41b63c0bb0963ace821a2b99458c1cd) format("truetype");
+  font-weight: 300;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Regular.ttf?8081832fc5cfbf634aa664a9eff0350e) format("truetype");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Italic.ttf?ce3fff31c0f262aca227664f6f0d2fa2) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Medium.ttf?9e1bb626874ed49aa343d66b8d66ceaf) format("truetype");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Poppins";
+  src: url(/fonts/Poppins-Bold.ttf?404e299be26d78e6679447ea7cb2d41f) format("truetype");
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+  color: #253944;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: inherit;
+}
+
+a, a:visited {
+  color: #567b90;
+}
+
+.logo a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: normal;
+  color: #F0E1C8;
+}
+
+header {
+  background-color: #253944;
+}
+header nav {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  padding: 50px 0px;
+}
+header nav a {
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 300;
+  color: #F0E1C8;
+}
+header nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+@media only all and (min-width: 0px) and (max-width: 350px) {
+  header nav ul {
+    display: none;
+  }
+}
+header nav ul li:not(:last-child) {
+  border-right: 1px solid #f0e1c812;
+}
+header nav ul li {
+  display: inline-block;
+}
+header nav ul li a {
+  color: #F0E1C8;
+  margin: 0px 25px;
+}
+
+.button {
+  background-color: #f0e1c8;
+  padding: 8px 35px;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #37576A;
+  font-weight: 500;
+}
+.button--dark {
+  background-color: #253944;
+  color: #F8F4EE;
+  font-weight: 400;
+}
+
+footer {
+  font-size: 0.8rem;
+  padding: 40px 0px;
+  color: #76858e;
+}
+
+section.main {
+  padding: 140px 0px;
+  background-color: #253944;
+  color: #F0E1C8;
+}
+@media only all and (max-width: 700px) {
+  section.main {
+    padding: 50px 0px;
+  }
+}
+section.main h1 {
+  width: 700px;
+  margin-bottom: 70px;
+}
+@media only all and (max-width: 700px) {
+  section.main h1 {
+    text-align: center;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+}
+section.main p {
+  width: 500px;
+  font-weight: 300;
+  line-height: 1.9;
+  margin-bottom: 60px;
+}
+@media only all and (max-width: 700px) {
+  section.main p {
+    text-align: center;
+    width: 80%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+@media only all and (max-width: 700px) {
+  section.main .cta {
+    text-align: center;
+    padding: 35px 0px;
+  }
+}
+
+section.about {
+  padding: 120px 0px;
+}
+@media only all and (max-width: 700px) {
+  section.about {
+    padding: 80px 0px;
+  }
+}
+section.about h2 {
+  display: block;
+  width: 45%;
+}
+@media only all and (max-width: 700px) {
+  section.about h2 {
+    font-size: 2.25em;
+    width: 100%;
+    text-align: center;
+  }
+}
+section.about .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+}
+@media only all and (max-width: 700px) {
+  section.about .content {
+    flex-direction: column;
+  }
+}
+section.about .content .about-me {
+  width: 50%;
+}
+@media only all and (max-width: 700px) {
+  section.about .content .about-me {
+    width: 100%;
+  }
+}
+section.about .content .more-information {
+  width: 40%;
+}
+@media only all and (max-width: 700px) {
+  section.about .content .more-information {
+    width: 100%;
+  }
+}
+section.about .content .more-information ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  position: relative;
+  margin-left: 80px;
+}
+@media only all and (max-width: 700px) {
+  section.about .content .more-information ul {
+    margin-left: 0px;
+  }
+}
+section.about .content .more-information ul li {
+  position: relative;
+  padding: 10px 0px;
+  font-weight: 300;
+}
+@media only all and (min-width: 700px) {
+  section.about .content .more-information ul li::before {
+    content: " ";
+    position: absolute;
+    top: 26px;
+    left: -78px;
+    width: 60px;
+    height: 1px;
+    background-color: #f0f0f0;
+  }
+}
+section.about .content .more-information > div {
+  margin-left: 80px;
+  margin-top: 50px;
+}
+@media only all and (max-width: 700px) {
+  section.about .content .more-information > div {
+    margin-left: 0px;
+  }
+}
+
+section.skills {
+  padding: 200px 0px;
+}
+section.skills .content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  min-height: 340px;
+}
+@media only all and (max-width: 700px) {
+  section.skills .content {
+    flex-direction: column;
+  }
+}
+section.skills .content .information {
+  width: 36%;
+}
+@media only all and (max-width: 700px) {
+  section.skills .content .information {
+    width: 100%;
+  }
+}
+@media only all and (max-width: 700px) {
+  section.skills .content .information h2 {
+    font-size: 1.95em;
+    width: 100%;
+    text-align: center;
+  }
+}
+section.skills .content .information p {
+  width: 70%;
+  font-weight: 300;
+}
+@media only all and (max-width: 700px) {
+  section.skills .content .information p {
+    width: 100%;
+  }
+}
+section.skills .content .tools {
+  width: 64%;
+  background-color: #253944;
+}
+@media only all and (max-width: 700px) {
+  section.skills .content .tools {
+    width: 100%;
+  }
+}
+section.skills .content .tools ul {
+  list-style-type: none;
+  margin: 30px;
+  padding: 25px 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  height: 100%;
+}
+section.skills .content .tools ul li {
+  flex: 1 0 21%;
+  text-align: center;
+}
+
+section.services {
+  padding: 120px 0px;
+}
+@media only all and (max-width: 700px) {
+  section.services {
+    padding: 80px 0px;
+  }
+}
+section.services h2 {
+  display: block;
+}
+@media only all and (max-width: 700px) {
+  section.services h2 {
+    font-size: 2.25em;
+    width: 100%;
+    text-align: center;
+  }
+}
+section.services > div > p {
+  width: 45%;
+  margin-bottom: 50px;
+}
+@media only all and (max-width: 700px) {
+  section.services > div > p {
+    width: 100%;
+  }
+}
+section.services ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+@media only all and (max-width: 700px) {
+  section.services ul {
+    flex-direction: column;
+  }
+}
+section.services ul li {
+  margin: 15px;
+  padding: 27px 25px;
+  min-height: 300px;
+}
+section.services ul li h3 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-top: 0px;
+}
+section.services ul li p {
+  width: 100%;
+}
+section.services ul li:nth-child(1) {
+  margin-left: 0px;
+}
+section.services ul .dark {
+  background-color: #253944;
+  color: #F8F4EE;
+}
+
+section.pricing {
+  background-color: #253944;
+  color: white;
+  padding: 100px 0px;
+}
+section.pricing h2 {
+  display: block;
+}
+@media only all and (max-width: 700px) {
+  section.pricing h2 {
+    font-size: 2.25em;
+    width: 100%;
+    text-align: center;
+  }
+}
+section.pricing > div > p {
+  width: 45%;
+  margin-bottom: 50px;
+}
+@media only all and (max-width: 700px) {
+  section.pricing > div > p {
+    width: 100%;
+  }
+}
+section.pricing ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+@media only all and (max-width: 700px) {
+  section.pricing ul {
+    flex-direction: column;
+  }
+}
+section.pricing ul li {
+  margin: 15px;
+  padding: 27px 25px;
+  min-height: 300px;
+}
+section.pricing ul li h3 {
+  font-size: 1.3em;
+  font-weight: 400;
+  margin-top: 0px;
+}
+section.pricing ul li p {
+  width: 100%;
+}
+section.pricing ul li span {
+  font-size: 3em;
+}
+section.pricing ul li:nth-child(1) {
+  margin-left: 0px;
+}
+section.pricing ul .light {
+  background-color: white;
+  color: #253944;
+}
+
+.container {
+  max-width: 1400px;
+  margin: auto;
+  padding: 0px 20px;
+}
+
+.size-1 {
+  font-size: 3em;
+  font-weight: 400;
+}
+@media only all and (max-width: 700px) {
+  .size-1 {
+    font-size: 2.25em;
+  }
+}
+@media only all and (min-width: 0px) and (max-width: 350px) {
+  .size-1 {
+    font-size: 1.95em;
+  }
+}
+
+.size-2 {
+  font-size: 2.25em;
+  font-weight: 400;
+}
+@media only all and (max-width: 700px) {
+  .size-2 {
+    font-size: 1.3em;
+  }
+}
+
+p {
+  font-weight: 300;
+  line-height: 1.875em;
+}

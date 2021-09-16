@@ -1,0 +1,56 @@
+section.skills{
+	padding: 200px 0px;
+
+	.content{
+		display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    align-items: stretch;
+	    flex-wrap: wrap;
+	    min-height: 340px;
+	    @media only all and (max-width: $bp-tablet) {
+	    	flex-direction: column;
+	    }
+		.information{
+			width: 36%;
+			@media only all and (max-width: $bp-tablet) {
+				width: 100%;
+			}
+			h2{
+				@media only all and (max-width: $bp-tablet) {
+					font-size: $size-3;
+					width: 100%;
+					text-align: center;
+				}
+			}
+			p{
+				width: 70%;
+				font-weight: 300;
+				@media only all and (max-width: $bp-tablet) {
+				width: 100%;
+			}
+			}
+		}
+		.tools{
+			width: 64%;
+			background-color: $teal;
+			@media only all and (max-width: $bp-tablet) {
+				width: 100%;
+			}
+			ul{
+				list-style-type: none;
+				margin: 30px; 
+				padding: 25px 0px;
+				display: flex;
+				flex-direction: row;
+				justify-content: space-around;
+				flex-wrap: wrap;
+				height: 100%;
+				li{
+					flex: 1 0 21%;
+					text-align: center;
+				}
+			}
+		}
+	}
+}

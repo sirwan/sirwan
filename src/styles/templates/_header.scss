@@ -1,0 +1,59 @@
+.logo{
+	a{
+		text-decoration: none;
+		text-transform: uppercase;
+		letter-spacing: 3px;
+		font-weight: normal;
+		color: $gold;
+	}
+}
+
+header {
+	background-color: $teal;
+	nav {
+		position: relative;
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		align-items: center;
+		justify-content: space-between;
+		margin: auto;
+		padding: 50px 0px;
+
+
+
+		a{
+			text-decoration: none;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			font-weight: 300;
+			color: $gold;
+		}
+
+		ul{
+			list-style-type: none;
+			margin: 0px; padding: 0px;
+			display: flex;
+			flex-direction: row;
+			flex-wrap: nowrap;
+			justify-content: space-between;
+
+			@media only all and (min-width: 0px) and (max-width: $bp-mobile) {
+				display: none;
+			}
+
+			li:not(:last-child){
+				border-right: 1px solid #f0e1c812;
+			}
+			li {
+				display: inline-block;
+				a {
+					color: #F0E1C8;
+					margin: 0px 25px;
+
+				}
+			}
+		}// ul
+	} // nav
+
+}//header

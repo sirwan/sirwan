@@ -1,0 +1,68 @@
+section.about{
+	padding: 120px 0px;
+	@media only all and (max-width: $bp-tablet) {
+		padding: 80px 0px;
+	}
+	h2{
+		display: block;
+		width: 45%;
+		@media only all and (max-width: $bp-tablet) {
+			font-size: $size-2;
+			width: 100%;
+			text-align: center;
+		}
+	}
+	.content{
+		display: flex;
+	    flex-direction: row;
+	    justify-content: space-between;
+	    align-items: stretch;
+	    @media only all and (max-width: $bp-tablet) {
+	    	flex-direction: column;
+	    }
+		.about-me{
+			width: 50%;
+			@media only all and (max-width: $bp-tablet) {
+				width: 100%;
+			}
+		}
+		.more-information{
+			width: 40%;
+			@media only all and (max-width: $bp-tablet) {
+				width: 100%;
+			}
+			ul{
+				list-style-type: none;
+				margin: 0px; padding: 0px;
+				position: relative;
+				margin-left: 80px;
+				@media only all and (max-width: $bp-tablet) {
+					margin-left: 0px;
+				}
+				li{
+					position: relative;
+					padding: 10px 0px;
+					font-weight: 300;
+					@media only all and (min-width: $bp-tablet) {
+						&::before{
+							content: " ";
+						    position: absolute;
+						    top: 26px;
+						    left: -78px;
+						    width: 60px;
+						    height: 1px;
+							background-color: #f0f0f0;
+						}
+					}
+				}
+			}
+			& > div {
+				margin-left: 80px;
+				margin-top: 50px;
+				@media only all and (max-width: $bp-tablet) {
+					margin-left: 0px;
+				}
+			}
+		}
+	}
+}
