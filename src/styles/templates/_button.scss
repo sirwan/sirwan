@@ -5,12 +5,15 @@
     text-decoration: none;
     color: $teal;
     font-weight: 500;
+    &:visited{
+        color: $teal;
+    }
     &--dark{
         background-color: $teal;
         color: $gold-light;
         font-weight: 400;
-    }
-    &:visited{
-        color: white;
+        &:visited{
+            color: white;
+        }
     }
 }

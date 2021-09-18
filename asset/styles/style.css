@@ -122,10 +122,16 @@ header nav .mobile-menu-button {
   color: #253944;
   font-weight: 500;
 }
+.button:visited {
+  color: #253944;
+}
 .button--dark {
   background-color: #253944;
   color: #F8F4EE;
   font-weight: 400;
+}
+.button--dark:visited {
+  color: white;
 }
 
 footer {
