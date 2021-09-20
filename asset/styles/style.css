@@ -382,7 +382,6 @@ section.services ul {
 }
 section.services ul li {
   cursor: pointer;
-  margin: 15px;
   padding: 27px 25px;
   min-height: 300px;
 }
@@ -444,7 +443,6 @@ section.pricing ul {
   }
 }
 section.pricing ul li {
-  margin: 15px;
   padding: 27px 25px;
   min-height: 300px;
   cursor: pointer;
