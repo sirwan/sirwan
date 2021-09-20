@@ -1,6 +1,10 @@
 section.skills{
 	padding: 200px 0px;
 
+	@media only all and (max-width: $bp-tablet) {
+		padding: 10px 0px;
+	}
+
 	.content{
 		display: flex;
 	    flex-direction: row;

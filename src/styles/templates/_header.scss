@@ -18,7 +18,7 @@ header {
 		align-items: center;
 		justify-content: space-between;
 		margin: auto;
-		padding: 50px 0px;
+		padding: 40px 0px;
 
 		a{
 			text-decoration: none;
@@ -41,6 +41,12 @@ header {
 
 			@media only all and (min-width: 0px) and (max-width: $bp-tablet) {
 				display: none;
+				flex-direction: column;
+				flex-wrap: wrap;
+				width: 100%;
+				top: 105px;
+				background: #253945;
+				position: absolute;
 			}
 
 			li:not(:last-child){

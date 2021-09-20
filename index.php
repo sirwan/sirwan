@@ -34,7 +34,12 @@
 		</ul>
 		<div class="mobile-menu-button">
 			<div>
-			menu
+			<div id="nav-icon3">
+				<span></span>
+				<span></span>
+				<span></span>
+				<span></span>
+				</div>
 			</div>
 		</div>
 	</nav>
