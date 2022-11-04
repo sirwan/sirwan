@@ -32,3 +32,12 @@ $( document ).ready(function() {
 	});
 
 });
+
+$(document).ready(function(){
+	$('.owl-carousel').owlCarousel({
+		margin:0,
+		loop:true,
+		// autoWidth:true,
+		items:3
+	});
+  });

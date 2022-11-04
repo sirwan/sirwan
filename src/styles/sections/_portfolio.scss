@@ -1,0 +1,63 @@
+section.portfolio{
+	padding: 150px 0px 90px;
+
+	@media only all and (max-width: $bp-tablet) {
+		padding: 10px 0px;
+	}
+
+	.content{
+		display: flex;
+	    flex-direction: column;
+	    justify-content: space-between;
+	    align-items: stretch;
+	    flex-wrap: wrap;
+	    min-height: 340px;
+
+        width: 100%;
+        background-color: $teal;
+        overflow: hidden;
+
+	    @media only all and (max-width: $bp-tablet) {
+	    	flex-direction: column;
+	    }
+
+		.information{
+			width: 100%;
+
+			@media only all and (max-width: $bp-tablet) {
+				width: 100%;
+			}
+			h2{
+				@media only all and (max-width: $bp-tablet) {
+					font-size: $size-3;
+					width: 100%;
+					text-align: center;
+				}
+			}
+			p{
+				width: 100%;
+				font-weight: 300;
+				@media only all and (max-width: $bp-tablet) {
+				    width: 100%;
+			    }
+			}
+		}
+
+		.thumbnail{
+			width: 100%;
+			background-color: $teal;
+            overflow: hidden;
+            display: inline-block;
+            outline: 20px solid $gold-light;
+            outline-offset: -5px;
+
+			@media only all and (max-width: $bp-tablet) {
+				width: 100%;
+			}
+            &:hover{
+                border: 20px solid $teal;
+            }
+		}
+
+	}
+}

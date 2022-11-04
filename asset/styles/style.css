@@ -147,7 +147,7 @@ footer {
 }
 
 section.main {
-  padding: 140px 0px;
+  padding: 100px 0px;
   background-color: #253944;
   color: #F0E1C8;
 }
@@ -339,6 +339,71 @@ section.skills .content .tools ul {
 section.skills .content .tools ul li {
   flex: 1 0 21%;
   text-align: center;
+}
+
+section.portfolio {
+  padding: 150px 0px 90px;
+}
+@media only all and (max-width: 700px) {
+  section.portfolio {
+    padding: 10px 0px;
+  }
+}
+section.portfolio .content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: stretch;
+  flex-wrap: wrap;
+  min-height: 340px;
+  width: 100%;
+  background-color: #253944;
+  overflow: hidden;
+}
+@media only all and (max-width: 700px) {
+  section.portfolio .content {
+    flex-direction: column;
+  }
+}
+section.portfolio .content .information {
+  width: 100%;
+}
+@media only all and (max-width: 700px) {
+  section.portfolio .content .information {
+    width: 100%;
+  }
+}
+@media only all and (max-width: 700px) {
+  section.portfolio .content .information h2 {
+    font-size: 1.95em;
+    width: 100%;
+    text-align: center;
+  }
+}
+section.portfolio .content .information p {
+  width: 100%;
+  font-weight: 300;
+}
+@media only all and (max-width: 700px) {
+  section.portfolio .content .information p {
+    width: 100%;
+  }
+}
+section.portfolio .content .thumbnail {
+  width: 100%;
+  background-color: #253944;
+  overflow: hidden;
+  display: inline-block;
+  outline: 20px solid #F8F4EE;
+  outline-offset: -5px;
+}
+@media only all and (max-width: 700px) {
+  section.portfolio .content .thumbnail {
+    width: 100%;
+  }
+}
+section.portfolio .content .thumbnail:hover {
+  border: 20px solid #253944;
 }
 
 section.services {

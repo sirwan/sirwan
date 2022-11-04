@@ -40,8 +40,12 @@ a, a:visited{
 @import 'sections/_main';
 @import 'sections/_about';
 @import 'sections/_skills';
+@import 'sections/_portfolio';
 @import 'sections/_services';
 @import 'sections/_pricing';
+
+
+// @import 'components/_owl-slider';
 
 .container {
 	max-width: $container;
